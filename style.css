@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: coral;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a:visited {
+  color: black;
+}
+
+.menu-bar {
+  background: rgb(3, 84, 145);
+  text-align: center;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: none;
+}
+
+.menu-bar ul li {
+  width: 190px;
+  margin: 15px;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.active, .menu-bar ul li:hover {
+  background: coral;
+  border-radius: 3px;
+}
+
+.menu-bar .fa {
+  margin-right: 15px;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background-color: rgb(3, 84, 145);
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 155px;
+  padding: 10px;
+  border-bottom: 1px dotted #ffffff;
+  background: transparent;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: coral;
+}
+
+.fa-angle-right {
+  float: right;
+}
+
+.hover-me:hover .sub-menu-2 {
+  position: absolute;
+  display: block;
+  margin-top: -40px;
+  margin-left: 170px;
+  background: rgb(3, 84, 145);
+}
+
+.sub-menu-2 {
+  display: none;
+}
+
+.grid {
+  background-color: coral;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.camel {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 400px;
+  padding: 50px;
+  background-color: #6699cc;
+}
+
+.camel a {
+  padding: 50px;
+}
+
+.camel:hover {
+  transform: scale(1.2);
+}
+
+.camel ul li {
+  color: #ffffff;
+}
+
+.chameleon {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 400px;
+  padding: 50px;
+  background-color: #6699cc;
+}
+
+.chameleon a {
+  padding: 50px;
+}
+
+.chameleon ul li {
+  color: #ffffff;
+}
+
+.chameleon:hover {
+  transform: scale(1.2);
+}
+
+.cicada {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 400px;
+  padding: 50px;
+  background-color: #6699cc;
+}
+
+.cicada a {
+  padding: 50px;
+}
+
+.cicada:hover {
+  transform: scale(1.1);
+}
+
+.cicada ul li {
+  color: #ffffff;
+}
+
+.panda {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 400px;
+  padding: 50px;
+  background-color: #6699cc;
+}
+
+.panda a {
+  padding: 50px;
+}
+
+.panda:hover {
+  transform: scale(1.2);
+}
+
+.panda ul li {
+  color: #ffffff;
+}
+
+.pigeon {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 400px;
+  padding: 50px;
+  background-color: #6699cc;
+}
+
+.pigeon a {
+  padding: 50px;
+}
+
+.pigeon:hover {
+  transform: scale(1.2);
+}
+
+.pigeon ul li {
+  color: #ffffff;
+}
+
+.teddy {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 400px;
+  padding: 50px;
+  background-color: #6699cc;
+}
+
+.teddy a {
+  padding: 50px;
+}
+
+.teddy:hover {
+  transform: scale(1.2);
+}
+
+.teddy ul li {
+  color: #ffffff;
+}
+
+.sm {
+  display: flex;
+  justify-content: center;
+}
+
+.sm img {
+  padding: 40px;
+  margin-bottom: -30px;
+}
+
+.intro {
+  height: 370px;
+  background-image: url(./images/bgimg.jpg);
+}
+
+.intro h1{
+  text-align: center;
+  color: coral;
+}
+
+.intro p {
+  color: aliceblue;
+}
